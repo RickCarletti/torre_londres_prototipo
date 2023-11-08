@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+  font-size: 30px;
+}
+
+.kanban {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  padding: 10px;
+  min-width: 200px;
+  background: url('https://atlas-content-cdn.pixelsquid.com/stock-images/wooden-baseball-bat-3y12162-600.jpg') no-repeat center;
+}
+
+.item {
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
